@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dang ky tai khoan</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    form{
+      width: 500px;
+    }
+    .blue{
+      background-color: cornflowerblue;
+      color : white;
+      border: gainsboro;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+<h2>Dang ky tai khoan</h2>
+<form>
+  <fieldset>
+    <legend>Thong tin ca nhan</legend>
+    <label>Ho va ten:</label>
+    <input type="text" name="uname" placeholder="Nhap ho va ten"><br><br>
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="example@gmail.com"><br><br>
+    <label>So dien thoai</label>
+    <input type="text" name="phone" placeholder="Nhap so dien thoai"><br><br>
+    <label>Gioi tinh:</label>
+    <input type="radio" name="gender" value="nam" checked>Nam
+    <input type="radio" name="gender" value="nu">Nu
+    <input type="radio" name="gender" value="Khac">Khac
+  </fieldset>
+  <fieldset>
+    <legend>Thong tin bo sung</legend>
+    <label>Ngay sinh:</label>
+    <input type="date" name="date"><br><br>
+    <label>Nghe nghiep:</label>
+    <select name="job">
+      <option value="sv">Sinh vien</option>
+      <option value="dl">Di lam</option>
+      <option value="hs">Hoc sinh</option>
+    </select>
+  </fieldset><br>
+  <input class="blue" type="submit" name="submit" value="Dang ky">
+  <input class="blue" type="reset" name="reset" value="Xoa">
+</form>
+</body>
+</html>
