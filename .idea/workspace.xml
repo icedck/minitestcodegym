@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12b47531-f2ce-4184-8bce-dc304bb31e38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minitest2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minitest2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minitest2/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minitest2/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minitest2/bai5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dangkytaikhoan.html" beforeDir="false" afterPath="$PROJECT_DIR$/minitest1/dangkytaikhoan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danhsachsinhvien.html" beforeDir="false" afterPath="$PROJECT_DIR$/minitest1/danhsachsinhvien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/minitest1/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/minitest1/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/minitest1/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/minitest1/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +58,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\minitestcodegym" />
+      <recent name="C:\minitestcodegym\minitest1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,7 +81,10 @@
       <updated>1741486046131</updated>
       <workItem from="1741486047181" duration="4232000" />
       <workItem from="1741571024916" duration="12000" />
-      <workItem from="1741580430124" duration="1353000" />
+      <workItem from="1741580430124" duration="1673000" />
+      <workItem from="1741592130074" duration="4000" />
+      <workItem from="1742027400677" duration="2627000" />
+      <workItem from="1742031306764" duration="488000" />
     </task>
     <servers />
   </component>
