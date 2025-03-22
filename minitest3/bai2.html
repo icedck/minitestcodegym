@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  function diemTrungBinh(a, b, c){
+    let tb = (a+b+c)/3;
+    let result;
+    if (tb >8 ){
+      result = "Tot";
+    }else if (tb >= 5 ){
+      result = "Dat";
+    }else{
+      result = "Khong Dat";
+    }
+    return result;
+  }
+
+  console.log(diemTrungBinh(1, 2, 3));
+  console.log(diemTrungBinh(6, 7, 8));
+  console.log(diemTrungBinh(9, 9, 8));
+</script>
+</html>

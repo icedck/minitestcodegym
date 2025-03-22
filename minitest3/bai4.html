@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+  let arr = "damn,damn,damn";
+  arr1 = arr.split("");
+  function demPhanTu(a){
+    let count = 0;
+    for(let i=0;i<arr1.length;i++){
+      if(arr1[i]==a){
+        count++;
+      }
+    }
+    return count;
+  }
+  let x = prompt("Nhap phan tu");
+  console.log(demPhanTu(x));
+</script>
+</html>

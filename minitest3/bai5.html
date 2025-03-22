@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  function checkSnt(num){
+    if (num<=1) return false;
+    if (num<4) return true;
+    if (num>=4) {
+      for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i == 0) {
+          return false;
+        }
+      }
+      return true;
+    }
+  }
+
+  function tinhTongSnt(arr){
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+      if (checkSnt(arr[i])) {
+        sum += arr[i];
+      }
+    }
+    return sum;
+  }
+
+  let arr1 = [1,2,3,4,5,6,7,8,9,10,11];
+  console.log(tinhTongSnt(arr1));
+</script>
+</html>
